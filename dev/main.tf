@@ -9,10 +9,6 @@ module "main" {
   source = "../core"
 }
 
-output "address" {
-  value = module.main.address
-}
-
-output "key" {
-  value = module.main.key
+output "output" {
+  value = module.main.output
 }
